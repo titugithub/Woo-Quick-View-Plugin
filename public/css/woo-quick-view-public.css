@@ -1,0 +1,39 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+
+
+ a.quick-view {
+    background: orange;
+    margin-right: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.woo_quick_view_modal{
+    width: 60% !important;
+    height: 560px !important;
+    top: 20%  !important;
+    left: 20%  !important;
+    bottom: 20%  !important;
+    right: 20%  !important;
+    position: fixed;
+    background: #fff;
+    z-index: 999;
+    padding: 2%;
+    border: 5 px solid #ddd;
+    display: none;
+}
+
+#woo-modal-close{
+    float: right;
+    width: 25px;
+    height: 25px;
+    background: #222;    
+
+
+}
